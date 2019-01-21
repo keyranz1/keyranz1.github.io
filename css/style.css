@@ -84,6 +84,39 @@ body{
 
 }
 
+#about .resume{
+    margin-top:45px;
+}
+
+#about .resume a{
+    border: 1px solid #418DB2; 
+    padding:20px; 
+    color:white; 
+    background-color:#418DB2; 
+    text-decoration: none;
+    letter-spacing: 0.5px;
+
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+#about .resume a:hover{
+    background-color: white;
+    color: #418DB2;
+    
+    -webkit-box-shadow: 3px 4px 16px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 16px 2px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 16px 2px rgba(0,0,0,0.75);
+
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
 
 .skillsSection{
     background: #5DA7C4;
@@ -302,7 +335,13 @@ body{
     font-size: 20px;
     margin-top: 9px;
 }
-
+.me .item .icons a.projectLink{
+        pointer-events: none;
+        cursor: default;
+}
+.items .me a.projectLink{
+    background-color: grey;
+}
 .items a{
     width: 40px;
     height: 40px;
