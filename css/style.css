@@ -418,6 +418,14 @@ body{
 .items{
     padding: 0px;
 }
+#timeline #dates li a{
+    color: #418DB2;
+    text-decoration: none;
+}
+#timeline #dates li a.selected{
+    color: #ffcc00;
+    font-size:40px;
+}
 
 .copyrightSection{
     background-color: #325F94;
@@ -481,6 +489,9 @@ footer .linkedin:hover { background-color: #0073b2; }
         margin-bottom: 20px;
         width:50%;
         /* padding:10px; */
+    }
+    #experience{
+        display: none;
     }
 
 }
