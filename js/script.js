@@ -13,13 +13,8 @@ $(window).on("load", function () {
     });
 })
 
-particlesJS('particles-js', 'particles.json', function() {
-    console.log('callback - particles.js config loaded');
-});
-
 $(document).ready(function () {
 
-    
     $().timelinr({
         autoPlay: 'true',
         autoPlayDirection: 'forward',
